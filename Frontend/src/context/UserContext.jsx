@@ -1,4 +1,4 @@
-import React, { createContext } from 'react'
+import React, { createContext, useState } from 'react'
 
 export const UserDataContext = createContext()
 
@@ -15,7 +15,7 @@ const UserContext = ({children}) => {
 
 
     <div>
-        <UserDataContext.Provider value={user}>
+        <UserDataContext.Provider value={{}}>
             {children}
         </UserDataContext.Provider>
     </div>
