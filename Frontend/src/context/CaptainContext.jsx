@@ -50,6 +50,7 @@ export const CaptainContext = ({ children }) => {
 
     const value = {
         captain,
+        setCaptain,
         isAuthenticated,
         isOnline,
         currentLocation,
